@@ -65,7 +65,7 @@ async function run() {
         app.get('/products', async (req, res) => {
             const cursor = productsCollection.find({}).sort({ _id: -1 });
             const result = await cursor.toArray();
-            res.send(result);
+            res.json(result);
         })
 
         // GET API With ID
@@ -74,7 +74,7 @@ async function run() {
 
             const query = { _id: ObjectId(id) };
             const result = await productsCollection.findOne(query);
-            res.send(result);
+            res.json(result);
         })
 
 
@@ -137,7 +137,7 @@ async function run() {
         app.get('/reviews', async (req, res) => {
             const cursor = reviewsCollection.find({}).sort({ _id: -1 });
             const result = await cursor.toArray();
-            res.send(result);
+            res.json(result);
         })
 
 
