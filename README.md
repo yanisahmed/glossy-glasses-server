@@ -1,5 +1,6 @@
 # Welcome to Glossy Glasses
-Live Link [Glossy Glasses Server](#).
+Live Link [Glossy Glasses Client](https://glossy-glasses.web.app/).
+Live Link [Glossy Glasses Server](https://powerful-sands-79915.herokuapp.com/).
 
 ## Website Features
 - *Mobile Responsive*
