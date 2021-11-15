@@ -8,6 +8,7 @@ Live Link [Glossy Glasses Server](https://powerful-sands-79915.herokuapp.com/).
 - *Firebase Authentication*
 - *User Privilliges*
 - *Order Placement*
+- *Admin Dashboard*
 
 ## Website Developer Tools
 - *React*
